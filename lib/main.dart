@@ -23,7 +23,7 @@ class _MyAppState extends State<MyApp> {
       home: Navigator(
         pages: [
           MaterialPage(
-            key: ValueKey('HomePage'),
+            key: ValueKey('unique '),
             child: Screen1(
               onTap: (value) {
                 isStacked = value;
